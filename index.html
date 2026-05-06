@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>More Expensive Than The Semester | UTP Food Crisis</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,wght@0,300;0,400;0,700;1,400&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===== HEADER / HERO ===== -->
+  <header class="hero" id="home">
+    <div class="hero__noise"></div>
+    <nav class="nav">
+      <span class="nav__logo">ILEX 4 · Group 9</span>
+      <ul class="nav__links">
+        <li><a href="#problem">Problem</a></li>
+        <li><a href="#feelings">Feelings</a></li>
+        <li><a href="#evidence">Evidence</a></li>
+        <li><a href="#solutions">Solutions</a></li>
+        <li><a href="#action" class="nav__cta">Act Now</a></li>
+      </ul>
+      <button class="nav__burger" id="navBurger" aria-label="Toggle menu">&#9776;</button>
+    </nav>
+
+    <div class="hero__content">
+      <p class="hero__tag">UTP Campus Food Crisis · 2025</p>
+      <h1 class="hero__title">
+        MORE<br/>
+        <span class="hero__accent">EXPENSIVE</span><br/>
+        THAN THE<br/>
+        SEMESTER
+      </h1>
+      <p class="hero__sub">
+        At Universidad Tecnológica de Pereira, a meal costs more than a student can afford —
+        and what they get in return isn't worth the price.
+      </p>
+      <div class="hero__btns">
+        <a href="#problem" class="btn btn--primary">See the problem</a>
+        <a href="#action" class="btn btn--ghost">Join the movement</a>
+      </div>
+    </div>
+
+    <div class="hero__scroll-hint">
+      <span>scroll</span>
+      <div class="hero__scroll-line"></div>
+    </div>
+  </header>
+
+  <!-- ===== STATS BAR ===== -->
+  <section class="stats-bar">
+    <div class="stats-bar__inner" id="statsBar">
+      <!-- Populated by JS -->
+    </div>
+  </section>
+
+  <!-- ===== THE PROBLEM ===== -->
+  <section class="section problem" id="problem">
+    <div class="section__label">01 / The Problem</div>
+    <div class="problem__grid">
+      <div class="problem__text">
+        <h2 class="section__title">Campus food is breaking<br/><em>students' budgets</em></h2>
+        <p>
+          Every day, thousands of UTP students face an impossible choice: pay overpriced
+          cafeteria food, eat poorly, or skip meals altogether. This is not a small inconvenience
+          — it is a structural problem that directly affects academic performance and well-being.
+        </p>
+        <p>
+          The options available on campus are limited, overpriced, and often nutritionally
+          inadequate. Students traveling long distances have no affordable alternative nearby.
+          The result? Hunger during class, poor concentration, and growing frustration.
+        </p>
+        <ul class="problem__list" id="problemList">
+          <!-- Populated by JS -->
+        </ul>
+      </div>
+      <div class="problem__visual">
+        <div class="img-card img-card--tilt-left">
+          <img src="imgp/problem.png" alt="The food problem at UTP campus" loading="lazy" />
+          <span class="img-card__label">The Reality</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== STUDENT FEELINGS ===== -->
+  <section class="section feelings" id="feelings">
+    <div class="section__label">02 / How Students Feel</div>
+    <div class="feelings__grid">
+      <div class="feelings__visual">
+        <div class="img-card img-card--tilt-right">
+          <img src="imgp/feelings.png" alt="Student frustration over food costs" loading="lazy" />
+          <span class="img-card__label">Student Voices</span>
+        </div>
+      </div>
+      <div class="feelings__text">
+        <h2 class="section__title">Frustration.<br/><em>Stress. Unfairness.</em></h2>
+        <p>
+          Students aren't just hungry — they're angry. Paying a large portion of their daily
+          budget on a single mediocre meal feels disrespectful. Many students depend on
+          financial aid or family support that barely covers tuition, let alone overpriced
+          lunches.
+        </p>
+        <div class="quotes" id="quotesBlock">
+          <!-- Populated by JS -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EVIDENCE ===== -->
+  <section class="section evidence" id="evidence">
+    <div class="section__label">03 / Evidence</div>
+    <h2 class="section__title evidence__title">Students are<br/><em>speaking up online</em></h2>
+    <p class="evidence__intro">
+      From Instagram posts to Twitter threads, UTP students have been documenting and
+      sharing their experiences with campus food for years. The complaints are consistent:
+      high prices, poor quality, and zero accountability.
+    </p>
+
+    <!-- Gallery — easily expandable via JS array -->
+    <div class="gallery" id="gallery">
+      <!-- Populated by JS -->
+    </div>
+
+    <div class="evidence__general">
+      <div class="img-card">
+        <img src="imgp/evidence.png" alt="General evidence of food quality issues" loading="lazy" />
+        <span class="img-card__label">Documented Evidence</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SOLUTIONS ===== -->
+  <section class="section solutions" id="solutions">
+    <div class="section__label">04 / What We Demand</div>
+    <div class="solutions__grid">
+      <div class="solutions__text">
+        <h2 class="section__title">It doesn't have to<br/><em>be this way.</em></h2>
+        <p>
+          Change is possible. Universities around the world have implemented fair-pricing
+          models, student subsidy programs, and quality-controlled cafeterias. UTP can do
+          the same. Here's what we're asking for:
+        </p>
+        <div class="solutions__cards" id="solutionsCards">
+          <!-- Populated by JS -->
+        </div>
+      </div>
+      <div class="solutions__visual">
+        <div class="img-card img-card--tilt-left">
+          <img src="imgp/solutions.png" alt="Proposed solutions for campus food" loading="lazy" />
+          <span class="img-card__label">Our Demands</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CALL TO ACTION ===== -->
+  <section class="cta" id="action">
+    <div class="cta__noise"></div>
+    <div class="cta__content">
+      <p class="cta__tag">Join the movement</p>
+      <h2 class="cta__title">YOUR VOICE<br/><span>COSTS NOTHING</span></h2>
+      <p class="cta__sub">
+        Share this page. Talk to your professors. Demand change at student assemblies.
+        Tag UTP on social media. Every voice makes the problem harder to ignore.
+      </p>
+      <div class="cta__actions">
+        <button class="btn btn--primary btn--large" id="shareBtn">Share This Page</button>
+        <a href="mailto:?subject=UTP%20Food%20Crisis&body=Check%20this%20out:%20More%20Expensive%20Than%20The%20Semester%20%E2%80%94%20A%20UTP%20food%20awareness%20campaign." class="btn btn--ghost btn--large">Send by Email</a>
+      </div>
+      <div class="protest-wall" id="protestWall">
+        <!-- Populated by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <div>
+        <p class="footer__project">Project Famine · ILEX 4, Group 9</p>
+        <p class="footer__team">
+          Alexa Valencia Velásquez · Jorge Andrés Ceballos Cruz ·
+          Miguel Ángel Cataño López
+        </p>
+      </div>
+      <p class="footer__copy">Universidad Tecnológica de Pereira · 2025</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
