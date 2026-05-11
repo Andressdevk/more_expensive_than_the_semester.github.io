@@ -19,11 +19,11 @@ const STATS = [
 ];
 
 const PROBLEM_ITEMS = [
-  { icon: "💸", text: "A basic lunch at UTP cafeterias costs between $12,000 and $18,000 COP — far above what students can afford daily." },
+  { icon: "💸", text: "A basic lunch at UTP cafeterias costs between $12,000 and $18,000 COP — the students don't have enought money." },
   { icon: "🥗", text: "Healthy, balanced meal options are scarce. Most available food is fried, highly processed, or low in nutritional value." },
   { icon: "🚌", text: "Students who travel long distances have no affordable alternative and are trapped in an expensive on-campus food market." },
-  { icon: "📉", text: "Skipping meals leads to poor concentration, lower academic performance, and increased dropout risk." },
-  { icon: "🔒", text: "There is no student subsidy or food assistance program that addresses the economic gap on campus." },
+  { icon: "📉", text: "skip meals makes low concentration in class." },
+  { icon: "🔒", text: "Food vouchers are insufficient for the large number of students the university has." },
 ];
 
 const QUOTES = [
