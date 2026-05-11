@@ -12,10 +12,10 @@
    ============================================= */
 
 const STATS = [
-  { number: "67%",  label: "Students skip at least one meal per day" },
-  { number: "3×",   label: "UTP food costs vs. nearby restaurants" },
-  { number: "40%",  label: "Of campus options are ultra-processed" },
-  { number: "1 in 3", label: "Students report hunger affecting focus" },
+  { number: "67%",  label: "Students skip lunch" },
+  { number: "3×",   label: "UTP food costs vs. other Universities" },
+  { number: "60%",  label: "Of campus options are ultra-processed" },
+  { number: "1 in 3", label: "Students report hunger affecting focus in class" },
 ];
 
 const PROBLEM_ITEMS = [
