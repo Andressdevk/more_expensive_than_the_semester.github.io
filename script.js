@@ -64,12 +64,12 @@ const SOLUTIONS = [
   {
     icon: "💰",
     title: "Subsidized Student Meals",
-    desc: "Implement an institutional subsidy program so students from lower income backgrounds can access nutritious meals at a fair price."
+    desc: "Implement a program of subsidies and vouchers so that more students have access to quality food"
   },
   {
     icon: "🥦",
     title: "Mandatory Healthy Options",
-    desc: "Require all food vendors on campus to offer at least one balanced, affordable, plant-inclusive meal option per service."
+    desc: "Require all food vendors on campus to offer at least one balanced, affordable and healthy."
   },
   {
     icon: "🏪",
