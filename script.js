@@ -28,15 +28,15 @@ const PROBLEM_ITEMS = [
 
 const QUOTES = [
   {
-    text: "I spend more on lunch than on my weekly bus fare. By mid-month, I'm choosing between eating and printing assignments.",
+    text: "Every day I spend 5000 pesos on a panzerotti. It's the only thing I can afford. I can't stop buying them because it's my only food for the day (plus, the girl who sells them is really pretty), but I would like to have healthier options to choose from.",
     author: "Engineering student, 3rd semester"
   },
   {
-    text: "The portions are tiny and the prices keep going up. They know we have no choice — we're stuck on campus.",
-    author: "Business student, 5th semester"
+    text: "Lunch at the Galpón is very expensive and of poor quality, besides The lemonade at lunch comes with soap.",
+    author: "Barragán, 5th semester"
   },
   {
-    text: "I started bringing food from home just to survive. But not everyone has that option.",
+    text: "Gaviria, you should think about the students and not your wallet.",
     author: "Systems student, 2nd semester"
   },
 ];
